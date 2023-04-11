@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+body{
+  background-image: linear-gradient( 109.6deg,  rgba(253,199,141,1) 11.3%, rgba(249,143,253,1) 100.2% );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#heading{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+
+}
+
+.label{
+  font-size: x-large;
+}
+
+.felid{
+   width: 15vw;
+   height: 4vh;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+
+.firstdiv{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.seconddiv{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.priority{
+  width: 15vw;
+   height: 5vh;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+
+.label2{
+  font-size: x-large;
+}
+
+.add{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addbutton{
+  border: 2px solid block;
+  border-radius: 10px;
+  width: 8vw;
+  height: 5vh;
+  background-image: linear-gradient( 68.4deg,  rgba(99,251,215,1) -0.4%, rgba(5,222,250,1) 100.2% );
+}
+
+.table{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.lookup{
+  border-collapse: separate;
+  border-spacing: 40px;
+}
+
+.editbutton {
+  margin-right: 10px;
+  background-color: #2BFF88;
+  width: 4.5vw;
+  height: 3.5vh;
+  border-radius: 5px;
+  border: 1.5px solid black;
+}
+
+.deletebutton{
+  background-color: coral;
+  width: 4.5vw;
+  height: 3.5vh;
+  border: 1.5px solid black;
+  border-radius: 5px;
+}
+
+.name{
+  text-align: center;
+  color: brown;
+}
+
+.pagebuttons{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.prevbutton{
+  background-color: slategray;
+  border: 2px solid black;
+  border-radius: 5px;
+  color:black;
+  width: 6vw;
+  height: 5vh;
+}
+
+.nextbutton{
+  background-color: slategray;
+  border: 2px solid black;
+  border-radius: 5px;
+  color:black;
+  width: 6vw;
+  height: 5vh;
+}
+
+.searchbox{
+  margin-left:5vw;
+  font-size: x-large;
+}
+
+.filter{
   color: white;
+  margin-left:1vw;
+  width: 5vw;
+  height: 5vh;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,160,187,1) 0%, rgba(0,188,219,0.90) 90% );
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.updatebutton{
+  margin-left: 20px;
+  border: 2px solid block;
+  border-radius: 10px;
+  width: 8vw;
+  height: 5vh;
+  background-image: radial-gradient( circle 860px at 11.8% 33.5%,  rgba(240,30,92,1) 0%, rgba(244,49,74,1) 30.5%, rgba(249,75,37,1) 56.1%, rgba(250,88,19,1) 75.6%, rgba(253,102,2,1) 100.2% );
 }
